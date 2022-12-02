@@ -3,9 +3,9 @@ class Vehicle
 {
     public string make;
     
-    string model;
+    public string model;
 
-    int year;
+    internal int year;
 
     int serialNumber;
 
