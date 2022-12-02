@@ -1,0 +1,15 @@
+/Users/prithamishra/Documents/dotnet/dotNet-Gautam/HelloWorld/bin/Debug/net7.0/HelloWorld
+/Users/prithamishra/Documents/dotnet/dotNet-Gautam/HelloWorld/bin/Debug/net7.0/HelloWorld.deps.json
+/Users/prithamishra/Documents/dotnet/dotNet-Gautam/HelloWorld/bin/Debug/net7.0/HelloWorld.runtimeconfig.json
+/Users/prithamishra/Documents/dotnet/dotNet-Gautam/HelloWorld/bin/Debug/net7.0/HelloWorld.dll
+/Users/prithamishra/Documents/dotnet/dotNet-Gautam/HelloWorld/bin/Debug/net7.0/HelloWorld.pdb
+/Users/prithamishra/Documents/dotnet/dotNet-Gautam/HelloWorld/obj/Debug/net7.0/HelloWorld.csproj.AssemblyReference.cache
+/Users/prithamishra/Documents/dotnet/dotNet-Gautam/HelloWorld/obj/Debug/net7.0/HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+/Users/prithamishra/Documents/dotnet/dotNet-Gautam/HelloWorld/obj/Debug/net7.0/HelloWorld.AssemblyInfoInputs.cache
+/Users/prithamishra/Documents/dotnet/dotNet-Gautam/HelloWorld/obj/Debug/net7.0/HelloWorld.AssemblyInfo.cs
+/Users/prithamishra/Documents/dotnet/dotNet-Gautam/HelloWorld/obj/Debug/net7.0/HelloWorld.csproj.CoreCompileInputs.cache
+/Users/prithamishra/Documents/dotnet/dotNet-Gautam/HelloWorld/obj/Debug/net7.0/HelloWorld.dll
+/Users/prithamishra/Documents/dotnet/dotNet-Gautam/HelloWorld/obj/Debug/net7.0/refint/HelloWorld.dll
+/Users/prithamishra/Documents/dotnet/dotNet-Gautam/HelloWorld/obj/Debug/net7.0/HelloWorld.pdb
+/Users/prithamishra/Documents/dotnet/dotNet-Gautam/HelloWorld/obj/Debug/net7.0/HelloWorld.genruntimeconfig.cache
+/Users/prithamishra/Documents/dotnet/dotNet-Gautam/HelloWorld/obj/Debug/net7.0/ref/HelloWorld.dll
