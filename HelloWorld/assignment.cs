@@ -12,6 +12,6 @@ class Vehicle
     void Test()
     {
         make = "Toyota";
-        serialNumber = 123456;
+        serialNumber = 1234567;
     }
 }
