@@ -44,7 +44,7 @@ class Variable
         byte[] peopleAges = { 89, 9, 18, 67, 23 };
 
         // Write an array to hold student names
-        string[] names = { "Ram", "Jack", "Tom", "Pranish" };
+        string[] names = { "Ram", "Jack", "Tom", "Jay" };
 
         // Multi dimensinal
 
