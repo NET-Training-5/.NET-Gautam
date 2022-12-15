@@ -31,11 +31,11 @@ class Selection
 
         if (age < 18)
         {
-            Console.WriteLine("You are child");
+            Console.WriteLine("You are a child");
         }
         else if (age < 40)
         {
-            Console.WriteLine("You are adult");
+            Console.WriteLine("You are an adult");
         }
         else if (age < 60)
         {
