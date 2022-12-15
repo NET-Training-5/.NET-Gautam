@@ -1,3 +1,5 @@
+using System;
+
 interface ILoanPayment
 {
     public float NumberOfYears();

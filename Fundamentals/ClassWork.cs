@@ -1,9 +1,11 @@
+using System.IO;
+
 class MakeDirectory
 {
     static string folderPath = @"/Users/prithamishra/Documents/dotnet";
     public void CreateTenDirectories()
     {
-        Directory.CreateDirectory(folderPath);
+        //Directory.CreateDirectory(folderPath);
         for (int i = 1; i < 11; i++)
         {
             string uniqueFolderPath = folderPath + "//Folder" + i;

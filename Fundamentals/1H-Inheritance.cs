@@ -3,24 +3,30 @@ class A
     public int x;
 }
 
-//Single Inheritance
-class B: A     //B inherits from A or B is of type A or A is parent of B. 
+// Single Inheritance
+class B: A      //B inherits from A, B is of type A, A is parent of B
 {
     public int y;
 }
 
-// Multilevel Inheritance
+// Multilevel inheritance
 class C: B
 {
     public int z;
 }
 
+// Multiple inheritance
 interface ID
 {
 
 }
 
-class E: B, ID
+interface IF
+{
+
+}
+
+class E: B, ID, IF
 {
 
 }

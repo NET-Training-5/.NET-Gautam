@@ -1,3 +1,5 @@
+using System;
+
 class Generic
 {
     public void PrintDetails<T>(T messege)
