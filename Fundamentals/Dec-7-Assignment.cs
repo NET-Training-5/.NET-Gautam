@@ -1,5 +1,5 @@
 public class MinMax {
-   public static void Main() {
+   public static void Main1() {
       int[] numbers = new int[6] {99, 95, 93, 89, 87, 65};
       
       int n = 6;

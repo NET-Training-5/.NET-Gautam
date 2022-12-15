@@ -4,7 +4,7 @@ class Method
 
     void PrintMessage()
     {
-        Console.WriteLine("Nepal is beautiful")
+        Console.WriteLine("Nepal is beautiful");
     }
     //Returns nothing, takes some arguments
 

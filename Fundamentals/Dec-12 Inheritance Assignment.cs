@@ -22,7 +22,12 @@ class HomeLoan: ILoanPayment
 
     public float NumberOfYears() => term * 12 * -1;
     public float MonthlyInterest() => interest/12;
-    public float MonthlyPayment() => (mi * principle) / (1 - Math.Pow(1 + mi, mt * -1));
+    public double MonthlyPayment() => (mi * principle) / (1 - Math.Pow(1 + mi, mt * -1));
+
+    float ILoanPayment.MonthlyPayment()
+    {
+        throw new NotImplementedException();
+    }
 }
 
 class CarLoan : HomeLoan
