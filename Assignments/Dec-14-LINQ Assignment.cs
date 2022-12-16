@@ -11,7 +11,7 @@ class LINQ
         //List all even numbers from "numbers" array
         var evenNumbers = numbers.Where(x => x / 2 == 0);
 
-        foreach (int x in evenNumbers)
+        foreach (var x in evenNumbers)
         {
             Console.WriteLine(x);
         } 
@@ -19,7 +19,7 @@ class LINQ
         // List all odd numbers which are divisible by 3
         var oddNumbers = numbers.Where(x => x % 2 != 0 && x % 3 == 0);
 
-        foreach (int x in oddNumbers)
+        foreach (var x in oddNumbers)
         {
             Console.WriteLine(x);
         } 
@@ -27,7 +27,7 @@ class LINQ
         // List multiples of 5 and 7 from "numbers"
         var multipleOf5N7 = numbers.Where(x => x / 5 == 0 && x / 7 == 0);
 
-        foreach (int x in multipleOf5N7)
+        foreach (var x in multipleOf5N7)
         {
             Console.WriteLine(x);
         } 
@@ -35,7 +35,7 @@ class LINQ
         // List all items less than 100 and ends with 0, from "numbers"
         var lessThanHunNEndWithZero = numbers.Where(x => x < 100 && x / 10 == 0);
 
-        foreach (int x in lessThanHunNEndWithZero)
+        foreach (var x in lessThanHunNEndWithZero)
         {
             Console.WriteLine(x);
         } 
