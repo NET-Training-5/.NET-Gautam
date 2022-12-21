@@ -2,17 +2,17 @@ using System.IO;
 
 class FileIO
 {
-    string folderPath = @"D:\Apps\.NET Training 5";
+    string folderPath = @$"/Users/prithamishra/Documents/dotnet";
 
     public void CreateFile()
     {
-        string fullFilePath = @$"{folderPath}\abc.txt";
+        string fullFilePath = @$"{folderPath}/abc.txt";
         File.WriteAllText(fullFilePath, "This is first text file");
     }
 
     public void CreateDirectory()
     {
-        string newFolderPath = folderPath + "\\abc";
+        string newFolderPath = folderPath + "//abc";
         Directory.CreateDirectory(newFolderPath);
     }
 
@@ -25,17 +25,17 @@ class FileIO
         for (byte counter = 0; counter <= 10; counter++)
         {
             var folderName = "Folder" + counter;
-            var folderPath = @$"D:\Apps\.NET Training 5\abc\{folderName}";
+            var folderPath = @$"/Users/prithamishra/Documents/dotnet/abc/{folderName}";
             Directory.CreateDirectory(folderPath);
 
-            var filePath = folderPath + @"\test.cs";
+            var filePath = folderPath + @"/test.cs";
             File.WriteAllText(filePath, $"// I am in {folderName}");
         }        
     }
 
     public void GetFileMetaData()
     {
-        FileInfo info = new FileInfo(@"D:\Apps\.NET Training 5\.NET-bishnu\readme.md");
+        FileInfo info = new FileInfo(@"/Users/prithamishra/Documents/dotnet/dotNet-Gautam/README.md");
 
         var size = info.Length / 1024 + " KB";        
     }
